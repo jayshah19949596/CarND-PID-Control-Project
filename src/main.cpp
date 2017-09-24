@@ -51,9 +51,9 @@ int main(int argC, char** argV)
       }
     }
   } else {
-    Kp_initial = -0.09;
+    Kp_initial = -0.091;
     Ki_initial = -0.0005;
-    Kd_initial = -1.7;
+    Kd_initial = -1.693;
   }
   //Init PID with P, I and D constants
   std::cout<<"Kp is: "<<Kp_initial<<" Ki is: "<<Ki_initial<<" Kd is: "<<Kd_initial<<std::endl;
@@ -100,7 +100,7 @@ int main(int argC, char** argV)
           }
           json msgJson;
           msgJson["steering_angle"] = steer_value;
-          msgJson["throttle"] = 0.5;
+          msgJson["throttle"] = 0.4;
           auto msg = "42[\"steer\"," + msgJson.dump() + "]";
           //std::cout << msg << std::endl;
           ws.send(msg.data(), msg.length(), uWS::OpCode::TEXT);
