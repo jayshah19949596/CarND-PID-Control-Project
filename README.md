@@ -93,25 +93,25 @@ The final implementation consisted of following major steps:
 
 **Fine tuning of Kd** -> Kp = -0.091, Ki = -0.001
   
-  Run 1                                Run 2 
+      Run 1                                Run 2 
 
-  Initial Kd = -1.0                    Initial Kd = -1.5
-  Initial delta_d = -0.1               Initial delta_d = -0.05
-  Tolerance = 0.05                     Tolerance = 0.001
-  Best error achieved = 8.112          Best error achieved = 4.935
-  Final Kd = -1.54                     Final Kd = -1.693
+      Initial Kd = -1.0                    Initial Kd = -1.5
+      Initial delta_d = -0.1               Initial delta_d = -0.05
+      Tolerance = 0.05                     Tolerance = 0.001
+      Best error achieved = 8.112          Best error achieved = 4.935
+      Final Kd = -1.54                     Final Kd = -1.693
   
   -----------------------------------------------------------------------------------
   
  **Fine tuning of Ki** -> Kp = -0.091, Kd = -1.693
   
-  Run 1                                Run 2 
+      Run 1                                Run 2 
 
-  Initial Ki = -0.001                    Initial Ki = 0.0003
-  Initial delta_i = -0.005               Initial delta_i = -0.0005
-  Tolerance = 0.0005                     Tolerance = 0.0001
-  Best error achieved = 4.13             Best error achieved = 3.225
-  Final Ki = -0.0003                     Final Ki = -0.0005
+      Initial Ki = -0.001                    Initial Ki = 0.0003
+      Initial delta_i = -0.005               Initial delta_i = -0.0005
+      Tolerance = 0.0005                     Tolerance = 0.0001
+      Best error achieved = 4.13             Best error achieved = 3.225
+      Final Ki = -0.0003                     Final Ki = -0.0005
   
   -----------------------------------------------------------------------------------
   
