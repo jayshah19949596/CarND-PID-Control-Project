@@ -81,13 +81,13 @@ The final implementation consisted of following major steps:
   
  **Fine tuning of Kp** -> Ki = -0.001, Kd = -1.0
   
-  Run 1                                Run 2 
+      Run 1                                Run 2 
 
-  Initial Kp = -0.2                    Initial Kp = -0.1
-  Initial delta_p = -0.1               Initial delta_p = -0.05
-  Tolerance = 0.05                     Tolerance = 0.001
-  Best error achieved = 32.231         Best error achieved = 10.002
-  Final Kp = -0.1109                   Final Kp = -0.091
+      Initial Kp = -0.2                    Initial Kp = -0.1
+      Initial delta_p = -0.1               Initial delta_p = -0.05
+      Tolerance = 0.05                     Tolerance = 0.001
+      Best error achieved = 32.231         Best error achieved = 10.002
+      Final Kp = -0.1109                   Final Kp = -0.091
 
 -------------------------------------------------------------------------------------
 
