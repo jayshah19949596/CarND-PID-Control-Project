@@ -123,7 +123,7 @@ The final implementation consisted of following major steps:
 PID controller used to derive the steering angles for a car moving on a circular track was implemented successfully. The car could stay close to the center of the lane and take smooth left and right turns along its path.
 
 
-## Steps for building the project in Ubuntu
+## Steps for building the project
 
 ### Dependencies
 
@@ -155,7 +155,7 @@ PID controller used to derive the steering angles for a car moving on a circular
 
 * Simulator. You can download these from the [Udacity simulator releases tab](https://github.com/udacity/self-driving-car-sim/releases).
 
-### Running the project
+### Running the project in Ubuntu
 
   1. Execute every step from ./install-ubuntu.sh. This will install gcc, g++, cmake, make and uWebsocketIO API.
   
